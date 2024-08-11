@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+    color: #f6f6f6;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7fF4XLrFikK3490PtmzzeaJ&ust=1722703801447000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjWr7Ti1ocDFQAAAAAdAAAAABAE') no-repeat center center fixed;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(242, 243, 250);
+    padding: 1rem;
+    display: inline-block;
+}
+
+section {
+    padding: 1.5rem; /* Reduced padding */
+    margin: 1.5rem;  /* Reduced margin */
+    background-color: rgba(117, 86, 86, 0.9); /* Semi-transparent background */
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: rgb(149, 186, 125);
+}
+
